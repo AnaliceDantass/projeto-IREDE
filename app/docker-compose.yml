@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    container_name: projeto-api
+    ports:
+      - "5000:3000"
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - app-data:/app/data
+    networks:
+      - rede-api
+
+volumes:
+  app-data:
+    driver: local
+
+networks:
+  rede-api:
+    driver: bridge
