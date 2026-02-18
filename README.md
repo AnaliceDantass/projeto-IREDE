@@ -49,7 +49,6 @@ sql
 
 Copy code
 sudo apt-get update sudo apt-get install git
-
 ```
 - **Confirmação da Instalação:** Durante o processo de instalação, o gerenciador de pacotes solicitará sua confirmação. Digite "Y" e pressione Enter para confirmar a instalação.
 - **Verificação da Instalação:** Após a instalação ser concluída, você pode verificar se o Git foi instalado corretamente digitando o seguinte comando no terminal:
@@ -58,7 +57,6 @@ css
 
 Copy code
 git --version
-
 ``` 
 - **Configuração inicial:** Antes de começar a usar o Git, é recomendável configurar seu nome de usuário e endereço de e-mail. Você pode fazer isso executando os seguintes comandos no terminal, substituindo "Seu Nome" e "seu@email.com" pelas suas informações:
 ```
@@ -66,7 +64,6 @@ arduino
 
 Copy code
 git config --global user.name "Seu Nome" git config --global user.email "seu@email.com"
-
 ```
 - **Conclusão:** Instalar o Git no Windows e Linux é um processo relativamente simples que abre as portas para uma colaboração eficaz no desenvolvimento de software. Com este guia passo a passo, você pode configurar rapidamente o Git em seu sistema operacional de escolha e começar a aproveitar todos os benefícios que essa poderosa ferramenta tem a oferecer.
 
@@ -78,3 +75,19 @@ git config --global user.name "Seu Nome" git config --global user.email "seu@ema
   - Para clonar o repositório usando uma chave SSH, incluindo um certificado emitido pela autoridade de certificação SSH da sua organização, clique em SSH e no símbolo de copiar.
   - Para clonar um repositório usando a GitHub CLI, clique em GitHub CLI e no símbolo de copiar.
 
+- **Abra o Git Bash**
+- **Altere o diretório de trabalho atual para o local em que deseja ter o diretório clonado.**
+- **Digite git clone e cole a URL já copiada.**
+```
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
+
+- **Pressione ENTER para criar seu clone local.**
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `Spoon-Knife`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
