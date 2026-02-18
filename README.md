@@ -97,3 +97,8 @@ Após clonar a pasta do projeto é necessário preparar o ambiente de desenvolvi
 ## Instalação do VS Code:
 Caso você não tenha a ferramenta instalada e configurada na sua máquina, acesse o seguinte link: [Configurando o Visual Studio Code](https://code.visualstudio.com/docs/setup/setup-overview). 
 Ele possui um tutorial completo com informações que vão desde à instalação da ferramenta à configuração dela, juntamente com informações adicionais disponibilizadas pelo próprio site do Visual Studio Code. 
+
+## Ao acessar o VS Code:
+
+- **Abra a pasta:** Abra a pasta clonada no VS Code.
+- **Instale as dependências:** No terminal do próprio VS Code (que pode ser acessado pelo comando Ctrl + ')
