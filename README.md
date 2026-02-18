@@ -116,3 +116,13 @@ npm start
 
 # Pronto!
 Você terá acesso à aplicação API REST e poderá executá-la quando quiser no seu servidor. 
+
+## Referências:
+
+- [Como instalar o Node.js na sua máquina](
+https://www.alura.com.br/artigos/como-instalar-node-js-windows-linux-macos?srsltid=AfmBOopkrIwDZLy5-MmIB8AE7PmDCQUIDkMi82meKo_q-nmC7sWHEKi5
+)     
+- [Como instalar o Git na sua máquina](
+https://www.dio.me/articles/guia-passo-a-passo-como-instalar-o-git-no-windows-e-linux
+)
+- [Como clonar um repositório](https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository)
