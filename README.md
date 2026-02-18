@@ -13,7 +13,7 @@ Para executar a API REST é preciso inicialmente ter o Node.js instalado na sua 
 - **Escolha o local de instalação:** É recomendado manter o caminho padrão. Apenas clique em "Next".
 - **Selecione os componentes:** Na tela de "Custom Setup", certifique-se de que a opção "Add to PATH" esteja selecionada. Isso é fundamental! Deixe todas as outras opções como estão e clique em "Next".
 - **Instale ferramentas adicionais:** O instalador oferecerá a opção de instalar ferramentas necessárias para módulos nativos. Marque essa caixa de aceite. Isso evitará dores de cabeça no futuro ao trabalhar com pacotes mais complexos. Clique em "Next" e, em seguida, em "Install".
-- **Aguarde a finalização:**
+- **Aguarde a finalização:**  Durante o processo, uma ou mais janelas de terminal podem abrir para instalar as ferramentas adicionais. Aguarde até que tudo seja concluído. Após a finalização, é uma boa prática reiniciar o computador.
 
 ## Instalação do Node.js no Linux:
 - **Abra o terminal:** Use o atalho Ctrl + Alt + T.
