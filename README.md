@@ -18,7 +18,15 @@ Para executar a API REST é preciso inicialmente ter o Node.js instalado na sua 
 ## Instalação do Node.js no Linux:
 - **Abra o terminal:** Use o atalho Ctrl + Alt + T.
 - **Adicione o repositório do Node.js**: Para garantir que você está baixando a versão LTS correta, execute o seguinte comando. Ele baixa e executa um script que configura o repositório oficial do NodeSource.
+```
+Bash
+curl -fsSl https://deb.nodesource.com/setup_lts.x | sudo -E bash - 
+```
 - **Instale o Node.js:** Agora que o repositório está configurado, use o gerenciador de pacotes apt para instalar o Node.js e o NPM.
+```
+Bash
+sudo apt-get install -y nodejs
+```
 - **E pronto!** O Node.js estará instalado e pronto para usar na sua máquina.
 
 ## Instalação do Node.js no macOS:
